@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Repos } from '../repos';
 import { SearchService } from '../search-git/search.service';
 
@@ -12,7 +13,7 @@ export class RepositoryComponent implements OnInit {
   repository: Repos;
   public searchRepo: string;
   public resultCount = 12;
-
+ 
   searchRepos() {
       this.searchRepo = '';
       this.resultCount = 10;
