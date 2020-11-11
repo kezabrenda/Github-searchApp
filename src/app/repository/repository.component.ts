@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Repos } from '../repos';
+import { SearchService } from '../search-git/search.service';
 
 @Component({
   selector: 'app-repository',
@@ -19,7 +20,7 @@ export class RepositoryComponent implements OnInit {
 
   }
 
-  constructor(public gitRepoRequest: SearchRequestService ) { }
+  constructor(public gitRepoRequest: SearchService ) { }
 
 ngOnInit() {
       this.resultCount = 5;
@@ -32,7 +33,5 @@ ngOnInit() {
 
     }
 
-
-}
 
 }
