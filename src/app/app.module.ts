@@ -10,6 +10,8 @@ import { RepositoryComponent } from './repository/repository.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { RoutingModule } from './routing/routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { StrikethroughDirective } from './strikethrough.directive';
+import { UpperCasePipe } from './upper-case.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     SearchComponent,
     RepositoryComponent,
     SearchFormComponent,
-    NavbarComponent
+    NavbarComponent,
+    StrikethroughDirective,
+    UpperCasePipe
   ],
   imports: [
     BrowserModule,
