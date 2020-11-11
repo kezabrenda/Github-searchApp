@@ -27,7 +27,9 @@ export class SearchComponent implements OnInit {
     }
 
 
-  constructor(public githubUserRequest: SearchService, public userRepos: SearchService) { }
+  constructor(
+    public githubUserRequest: SearchService, 
+    public userRepos: SearchService) { }
 
   ngOnInit() {
       this.githubUserRequest.githubUser(this.searchMe);

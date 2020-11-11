@@ -4,7 +4,6 @@ import {RouterModule, Routes} from '@angular/router';
 
 import { SearchComponent } from '../search/search.component';
 import {RepositoryComponent} from '../repository/repository.component';
-import { AppComponent } from '../app.component';
 
 
 const routes: Routes = [
@@ -15,7 +14,7 @@ const routes: Routes = [
 
 
 @NgModule({
-  declarations: [AppComponent, SearchComponent, RepositoryComponent],
+  declarations: [],
 
   imports: [CommonModule,RouterModule.forRoot(routes)]
 })
