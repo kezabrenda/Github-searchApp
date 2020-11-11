@@ -7,13 +7,15 @@ import { SearchComponent } from './search/search.component';
 import { RepositoryComponent } from './repository/repository.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { RoutingModule } from './routing/routing.module';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
     RepositoryComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
