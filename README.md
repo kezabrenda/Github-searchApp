@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Brenda UMUTONIWASE KEZA
 
 ### Link To Deployed Website
-[]
+[https://kezabrenda.github.io/Github-searchApp/]
 
 ## Description
 
