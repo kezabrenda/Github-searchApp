@@ -1,1 +1,95 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar-dark a {
+    /*float: left;*/
+    display: block;
+    color: dodgerblue;
+    text-align: center;
+    padding: 15px 17px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+* {box-sizing: border-box;}
+
+.navbar-dark {
+    overflow: hidden;
+    background-color: #056b5b;
+}
+
+/*body*/
+.container{
+    margin-top: 5rem;
+}
+p {
+    text-indent: 2rem;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.btn{
+    margin-top: 30px;
+    background-color: #056b5b;
+}
+
+.seeMorebtn{
+    text-align: center;
+}
+.display{
+    float: left;
+    margin-bottom: 0.3rem;
+}
+
+/*user form*/
+.search-form p {
+    font-size: 30px;
+    margin: 0;
+    justify-content: left;
+    align-items: left;
+    /*position: sticky;*/
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+/*.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {*/
+    /*background-color: red;*/
+/*}*/
+/*github user repos*/
+.my-repos p {
+    text-indent: 3rem;
+    text-align: left;
+}
+.desc{
+    text-align: left;
+}
+tr {
+    font-size: 16px;
+}
+a:hover {
+    text-decoration: none;
+}
+td a {
+    font-size: 25px;
+}
+
+p {
+    text-indent: 2rem;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.col-md-12 {
+    text-align: center;
+}
+.container {
+    margin-top: 2rem;
+}
+
+
+/* profile*/
+img {
+    max-width: 60%;
+    border-radius: 600px;
+}
+.image-right {
+    padding-top: 8rem;
+    text-align: center;
+}

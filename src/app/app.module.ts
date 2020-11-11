@@ -10,6 +10,7 @@ import { RepositoryComponent } from './repository/repository.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { RoutingModule } from './routing/routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import {SearchService} from './search-git/search.service';
 import { StrikethroughDirective } from './strikethrough.directive';
 import { UpperCasePipe } from './upper-case.pipe';
 
@@ -30,7 +31,7 @@ import { UpperCasePipe } from './upper-case.pipe';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
