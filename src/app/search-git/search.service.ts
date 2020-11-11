@@ -59,7 +59,7 @@ export class SearchService {
         }
 
         const myPromise = new Promise((resolve, reject) => {
-            this.http.get<ApiResponse>('https://api.github.com/search/repositories?q=' + searchMe + '/repos?order=created&sort=asc?access_token=' + environment.myApi).toPromise().then(getRepoResponse => {
+            this.http.get<ApiResponse>('https://api.github.com/users/' + searchMe + '/repos?order=created&sort=asc?access_token=' + environment.myApi).toPromise().then(getRepoResponse => {
                 this.newRepository = getRepoResponse;
                 resolve();
             }, error => {
@@ -70,7 +70,7 @@ export class SearchService {
     }
 
 
-    gitRepos(searchName) {
+   gitRepos(searchName) {
         interface ApiResponse {
             items: any;
         }

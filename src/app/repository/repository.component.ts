@@ -29,7 +29,7 @@ ngOnInit() {
 
 
     getDataFunction() {
-        this.gitRepoRequest.gitRepos(this.searchRepo);
+        this.gitRepoRequest.gitRepos("");
 
     }
 
